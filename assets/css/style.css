@@ -1,0 +1,93 @@
+body{
+	background-image: url('../img/body.webp');
+	background-repeat: repeat-y;
+	background-color: #efefef
+}
+#entete
+{	
+	font-size: 2em;
+	text-align: center;
+	font-family: "AGENCY FB";
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	color: #d9dada;
+	border: 3px ridge #ededed5c;
+    background-color: rgb(46, 73, 45 ,0.89);
+	/*border-bottom: 3px ridge black;*/
+	/*border:1px solid green;*/
+}
+#contenu
+{
+	float: left;
+	width: 80%;
+	text-align: justify;
+	color: #20172c;
+	/*border:1px solid yellow;*/
+}
+#contenu h1 a
+{
+	
+	color: rgb(32 ,23, 44 , 0.7);
+	
+}
+#connexion{
+	margin-left: 86%;
+	text-align: center;
+	background-color: rgb(108 132 90);
+    border-radius: 10px;
+	padding: 10px;
+	width: 120px;
+	margin-top: 10px;
+	color: white;
+	font-size: 20px;
+
+
+}
+#connexion a{
+	
+	color: white;
+	text-decoration: none;
+
+}
+#menu
+{
+	margin-top: 5%;
+    border-radius: 60px;
+    padding: 20px;
+    color: rgb(98 114 86);
+	margin-left: 80%;
+	text-align: center;
+	background-image: url('../img/body.webp');	
+    padding-bottom: 40px;
+	/*border:1px solid red;*/
+}
+#menu li
+{
+	list-style-type: none;
+	background-color:rgb(46, 73, 45 ,0.7);
+    border-radius: 10px;
+    border: 1px solid rgb(96 ,81, 94);
+	padding: 10px;
+	margin : 10px;
+}
+#menu li a
+{	
+	color: white;
+    font-size: 21px;
+    text-decoration: none;
+}
+#menu h1
+{
+	margin-top: 0px;
+	padding-top: 0px;
+	font-family: "AGENCY FB";
+	text-transform: uppercase;
+}
+.article
+{
+	margin: 10px;
+	padding: 10px;
+	border: 1px dashed rgb(86 105 84);
+    background-color: rgb(255, 255, 255, 0.8);
+    border-radius: 0px 20px;
+}
